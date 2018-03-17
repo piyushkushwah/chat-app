@@ -5,8 +5,8 @@
    	public function login(){
       $data['title']='Login';
       $this->load->database();
+      $this->load->view('templates/header1');	   
       $this->load->view('templates/header');
-      $this->load->view('templates/header');	 
       $this->load->view('user/login',$data);	 
       $this->load->view('templates/footer');	 
    	}

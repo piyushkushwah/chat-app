@@ -4,7 +4,7 @@
        <div class="col s4 offset-s4 z-depth-3 login-box white">
             
       <div class="row">
-        <form method="post" action="">
+        <form id="loginform" method="post" action="">
           <div class="margin-top">
 
             <div class="input-field col s10">
@@ -15,7 +15,7 @@
 
             <div class="input-field col s10">
               <i class="material-icons prefix">lock</i>
-              <input id="icon_telephone" type="password" class="validate" autocomplete="off" required minlength="8">
+              <input id="icon_telephone" type="password" class="validate" autocomplete="off" required minlength="8" value="">
               <label for="icon_telephone">Password</label>
             </div>
            <div class="row">
@@ -33,6 +33,6 @@
     </div>
 
   </div>
-    
+  <script src="<?php echo base_url(); ?>assets/js/login.js"></script>
 
  
