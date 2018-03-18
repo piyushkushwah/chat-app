@@ -1,6 +1,7 @@
 
 $(document).ready(function(){
-
+    var SERVER_URL = $('#SERVER_URL').val();
+    console.log(SERVER_URL);
   
         $(".dropdown-button").dropdown();
     // Initialize collapse button
@@ -22,7 +23,7 @@ $(document).ready(function(){
       e.preventDefault();
       var user = $('#icon_prefix').val();
       var pass = $('#icon_telephone').val();
-      $.post('http://172.16.19.0:3000/api/login',{
+      $.post(SERVER_URL+'api/login',{
           username:user,
           password:pass
         },function(data,status){

@@ -4,9 +4,9 @@
     <li>
         <div class="user-view">
           <div class="background">
-           <img src="image/img1.jpg">
+           <img src="<?php echo base_url(); ?>assets/img/img1.jpg">
           </div>
-        <a href="#!user"><img class="circle" src="image/img1.jpg"></a>
+        <a href="#!user"><img class="circle" src="<?php echo base_url(); ?>assets/img/img1.jpg"></a>
         <a href="#!name"><span class="white-text name">John Doe</span></a>
         <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
        </div>
@@ -31,7 +31,7 @@
           <li class="collection-header">
             <div>
 
-              <img src="image/img1.jpg" width="45" height="45" alt="" class="circle  image-width">
+              <img src="<?php echo base_url(); ?>assets/img/img1.jpg" width="45" height="45" alt="" class="circle  <?php echo base_url(); ?>assets/img-width">
               <a href="#" class="">USER</a>
               <a href="#" class="right"><i class="material-icons">list</i></a>
               <a href="#" class="right"><i class="material-icons" id="auto">add</i></a>
@@ -64,21 +64,21 @@
 
             <li class="collection-item avatar hov1" id="hov">
 
-                <img src="image/img1.jpg" alt="" class="circle">
+                <img src="<?php echo base_url(); ?>assets/img/img1.jpg" alt="" class="circle">
                 <span class="title">User Name</span>
                 <p>First Line</p>
                 <a href="#!" class="secondary-content"><i class="material-icons hidden">keyboard_arrow_down</i></a>
             </li>
  
             <li class="collection-item avatar hov1" id="hov">
-              <img src="image/img1.jpg" alt="" class="circle">
+              <img src="<?php echo base_url(); ?>assets/img/img1.jpg" alt="" class="circle">
               <span class="title">User Name</span>
               <p>First Line</p>
               <a href="#!" class="secondary-content"><i class="material-icons hidden">keyboard_arrow_down</i></a>
           </li>
 
           <li class="collection-item avatar hov1" id="hov">
-            <img src="image/img1.jpg" alt="" class="circle">
+            <img src="<?php echo base_url(); ?>assets/img/img1.jpg" alt="" class="circle">
             <span class="title">User Name</span>
             <p>First Line</p>
             <a href="#!" class="secondary-content"><i class="material-icons hidden">keyboard_arrow_down</i></a>
@@ -86,7 +86,7 @@
 
 
         <li class="collection-item avatar hov1" id="hov">
-          <img src="image/img1.jpg" alt="" class="circle">
+          <img src="<?php echo base_url(); ?>assets/img/img1.jpg" alt="" class="circle">
           <span class="title">User Name</span>
           <p>First Line</p>
           <a href="#!" class="secondary-content"><i class="material-icons hidden">keyboard_arrow_down</i></a>
@@ -94,14 +94,14 @@
 
 
       <li class="collection-item avatar hov1" id="hov">
-        <img src="image/img1.jpg" alt="" class="circle">
+        <img src="<?php echo base_url(); ?>assets/img/img1.jpg" alt="" class="circle">
         <span class="title">User Name</span>
         <p>First Line</p>
         <a href="#!" class="secondary-content"><i class="material-icons hidden">keyboard_arrow_down</i></a>
     </li>
 
     <li class="collection-item avatar hov1" id="hov">
-      <img src="image/img1.jpg" alt="" class="circle">
+      <img src="<?php echo base_url(); ?>assets/img/img1.jpg" alt="" class="circle">
       <span class="title">User Name</span>
       <p>First Line</p>
       <a href="#!" class="secondary-content"><i class="material-icons hidden">keyboard_arrow_down</i></a>
@@ -109,21 +109,21 @@
 
 
   <li class="collection-item avatar hov1" id="hov">
-    <img src="image/img1.jpg" alt="" class="circle">
+    <img src="<?php echo base_url(); ?>assets/img/img1.jpg" alt="" class="circle">
     <span class="title">User Name</span>
     <p>First Line</p>
     <a href="#!" class="secondary-content"><i class="material-icons hidden">keyboard_arrow_down</i></a>
 </li>
       
             <li class="collection-item avatar hov1" id="hov">
-        <img src="image/img1.jpg" alt="" class="circle">
+        <img src="<?php echo base_url(); ?>assets/img/img1.jpg" alt="" class="circle">
         <span class="title">User Name</span>
         <p>First Line</p>
         <a href="#!" class="secondary-content"><i class="material-icons hidden">keyboard_arrow_down</i></a>
     </li>
 
     <li class="collection-item avatar hov1" id="hov">
-      <img src="image/img1.jpg" alt="" class="circle">
+      <img src="<?php echo base_url(); ?>assets/img/img1.jpg" alt="" class="circle">
       <span class="title">User Name</span>
       <p>First Line</p>
       <a href="#!" class="secondary-content"><i class="material-icons hidden">keyboard_arrow_down</i></a>
@@ -131,7 +131,7 @@
 
 
   <li class="collection-item avatar hov1" id="hov">
-    <img src="image/img1.jpg" alt="" class="circle">
+    <img src="<?php echo base_url(); ?>assets/img/img1.jpg" alt="" class="circle">
     <span class="title">User Name</span>
     <p>First Line</p>
     <a href="#!" class="secondary-content"><i class="material-icons hidden">keyboard_arrow_down</i></a>
@@ -151,7 +151,7 @@
               <div>
                   <!-- name of user whom chatting with -->
                   <a class="sz bk"><i class="material-icons">arrow_back</i></a>
-                  <img src="image/img1.jpg" width="45" height="45" alt="" class="circle  image-width button-collapse" data-activates="slide-out">
+                  <img src="<?php echo base_url(); ?>assets/img/img1.jpg" width="45" height="45" alt="" class="circle  <?php echo base_url(); ?>assets/img-width button-collapse" data-activates="slide-out">
                   <a href="#" class="">USER NAME</a>
                   <a href="" class="right"><i class="material-icons">list</i></a>
                   <a href="#" class="right"><i class="material-icons" id="auto">add</i></a>
