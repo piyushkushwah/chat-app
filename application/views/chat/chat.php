@@ -1,3 +1,5 @@
+<input type="hidden" id="token" value="<?php echo $token; ?>" >
+
 
   <!-- side nav bar -->
   <ul id="slide-out" class="side-nav">
@@ -231,12 +233,12 @@
          
                  <!--text area  -->
              <div class="row bg-col-1">
-                  <form action="" method="post">
+                  <form id="messageForm" action="" method="post">
                     <div class="row">
                       <div class="col s10 m11 l11 a">
                         <input type="text" name="message" placeholder="write message"> 
                       </div>
-                      <div class="col s1 m1 l1 pos"><a class="btn btn-floating btn-large cyan" href="#"><i class="material-icons pk">send</i></a></div>
+                      <div class="col s1 m1 l1 pos"><button type="submit" class="btn btn-floating btn-large cyan"><i class="material-icons pk">send</i></button></div>
                      </div>
                   </form>
              </div>
@@ -244,6 +246,8 @@
       </div> <!-- col s8 -->   
     </div>     
  <!-- row-->
+
+ <script src="<?php echo base_url(); ?>assets/js/chat.js"></script>
 
 </body>
 </html>
