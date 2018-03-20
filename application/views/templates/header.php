@@ -19,7 +19,13 @@
   <script  src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
+<<<<<<< HEAD
   <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+=======
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+
+>>>>>>> dc9372429665a5bec27a0bfe04c006eabcd53a54
 </head>
 <body>
 <?php if($header === true): ?>

@@ -1,4 +1,5 @@
 $(document).ready(function(){
+<<<<<<< HEAD
 var base_url = $('#BASE_URL').val();
 var server_url = $('#SERVER_URL').val();
 var token = $('#token').val();
@@ -51,4 +52,31 @@ $messageForm.submit(function(e){
 
 
 
+=======
+    var SERVER_URL = $('#SERVER_URL').val();
+    var token = $('#token').val();
+
+    var $messageForm = $('#messageForm');
+
+
+    var socket = io.connect('http://localhost:3000');
+
+
+    socket.on('connect', function () {
+        console.log('Connected');
+    });
+
+    $messageForm.submit(function(e){
+        e.preventDefault();
+        console.log('Form Submitted');
+        connect_socket(token);
+    });
+
+    function connect_socket (token) {
+        // var socket = io.connect('http://localhost:3000', {
+        //     query: 'token=' + token
+        // });
+
+    };
+>>>>>>> dc9372429665a5bec27a0bfe04c006eabcd53a54
 });

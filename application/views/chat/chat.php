@@ -1,3 +1,5 @@
+<input type="hidden" id="token" value="<?php echo $token; ?>" >
+
 
 <input type="hidden" value='<?php echo $token; ?>' id='token'>
 
@@ -236,12 +238,20 @@
          
                  <!--text area  -->
              <div class="row bg-col-1">
+<<<<<<< HEAD
                   <form id='messageForm' action="" method="post">
+=======
+                  <form id="messageForm" action="" method="post">
+>>>>>>> dc9372429665a5bec27a0bfe04c006eabcd53a54
                     <div class="row">
                       <div class="col s10 m11 l11 a">
                         <input id='message' type="text" name="message" placeholder="write message"> 
                       </div>
+<<<<<<< HEAD
                       <div class="col s1 m1 l1 pos"><button type="submit" class="btn btn-floating btn-large cyan" href="#"><i class="material-icons pk">send</i></button></div>
+=======
+                      <div class="col s1 m1 l1 pos"><button type="submit" class="btn btn-floating btn-large cyan"><i class="material-icons pk">send</i></button></div>
+>>>>>>> dc9372429665a5bec27a0bfe04c006eabcd53a54
                      </div>
                   </form>
              </div>
@@ -251,4 +261,11 @@
     </div>     
  <!-- row-->
 
+<<<<<<< HEAD
 <script src='<?php echo base_url();?>assets/js/chat.js'> </script>
+=======
+ <script src="<?php echo base_url(); ?>assets/js/chat.js"></script>
+
+</body>
+</html>
+>>>>>>> dc9372429665a5bec27a0bfe04c006eabcd53a54
