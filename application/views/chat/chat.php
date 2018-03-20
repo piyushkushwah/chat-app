@@ -169,7 +169,7 @@
             <div id="messages">
             <!-- 1st user -->
             <div class="container-2">
-                <p id="user_id_1">CYNIX</p>
+                <p class="userother">CYNIX</p>
                 <p>Hello. How are you today? lorem100</p>
                 <i class="material-icons time-right">check</i>
                 <span class="time-right">11:00</span>
@@ -177,7 +177,7 @@
             
             <!-- 2nd user -->
             <div class="container-2 darker">
-                  <p id="user_id_2">Linux</p>
+                  <p class="userself">Linux</p>
                   <p>Hey! I'm fine. Thanks ddd for asking! lorem100</p>
                   <i class="material-icons time-right">check</i>
                   <span class="time-right">11:01</span>

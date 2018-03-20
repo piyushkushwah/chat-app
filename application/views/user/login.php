@@ -1,7 +1,7 @@
   
    <!-- login form -->
   <div class="row  box">
-       <div class="col s4 offset-s4 z-depth-3 login-box white">
+       <div class="col s12  m4 offset-m4 z-depth-3 login-box white">
             
       <div class="row">
         <form id="loginform" method="post" action="">
@@ -33,6 +33,19 @@
     </div>
 
   </div>
+
+  <!-- add footer  -->
+
+    <footer class="page-footer #c62828 red darken-4">
+
+<div class="footer-copyright">
+  <div class="container center">
+  © 2014 Copyright Text
+  <a class="grey-text text-lighten-4" href="#">cynix.com</a>
+  </div>
+</div>
+</footer>
+
   <script src="<?php echo base_url(); ?>assets/js/login.js"></script>
  
 
