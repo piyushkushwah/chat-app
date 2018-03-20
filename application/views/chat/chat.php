@@ -1,4 +1,8 @@
 
+<input type="hidden" value='<?php echo $token; ?>' id='token'>
+
+
+
   <!-- side nav bar -->
   <ul id="slide-out" class="side-nav">
     <li>
@@ -160,7 +164,7 @@
 
         <div class="scrol scrol-chat bg-col #bdbdbd grey lighten-1">     
             <!-- chatting division -->
-            
+            <div id="messages">
             <!-- 1st user -->
             <div class="container-2">
                 <p id="user_id_1">CYNIX</p>
@@ -224,26 +228,27 @@
                   <i class="material-icons time-right">check</i>
                   <span class="time-right">11:01</span>
             </div><br>
-
+            
+          </div>
 
         </div><!-- scroll end -->
               
          
                  <!--text area  -->
              <div class="row bg-col-1">
-                  <form action="" method="post">
+                  <form id='messageForm' action="" method="post">
                     <div class="row">
                       <div class="col s10 m11 l11 a">
-                        <input type="text" name="message" placeholder="write message"> 
+                        <input id='message' type="text" name="message" placeholder="write message"> 
                       </div>
-                      <div class="col s1 m1 l1 pos"><a class="btn btn-floating btn-large cyan" href="#"><i class="material-icons pk">send</i></a></div>
+                      <div class="col s1 m1 l1 pos"><button type="submit" class="btn btn-floating btn-large cyan" href="#"><i class="material-icons pk">send</i></button></div>
                      </div>
                   </form>
              </div>
            </ul>
+           
       </div> <!-- col s8 -->   
     </div>     
  <!-- row-->
 
-</body>
-</html>
+<script src='<?php echo base_url();?>assets/js/chat.js'> </script>

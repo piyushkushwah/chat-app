@@ -4,7 +4,6 @@
 
    	public function login(){
       $data['title']='Login';
-      echo SERVER_URL;
       $data['styles'] = array('login');
       $data['header']= true;
       $this->load->database();	   

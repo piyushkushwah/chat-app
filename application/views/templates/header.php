@@ -19,7 +19,7 @@
   <script  src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
-  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
 </head>
 <body>
 <?php if($header === true): ?>
@@ -37,3 +37,4 @@
 <?php endif; ?>
 
 <input type="hidden" value="<?php echo SERVER_URL;?>" id='SERVER_URL'>
+<input type="hidden" value='<?php echo base_url(); ?>' id='BASE_URL'>
